@@ -1,0 +1,41 @@
+.podcast-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3.6rem 10.0rem 3.6rem 10.0rem;
+    p{
+        @include xs{
+            margin-bottom: 1.6rem;
+        }
+    }
+    @include xl{
+        padding: 3.6rem 5rem 3.6rem 5rem;
+    }
+    @include lg{
+        padding: 3.6rem 2.5rem 3.6rem 2.5rem;
+    }
+    @include xs{
+        padding: 2.4rem 2.5rem 3.6rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.podcast-social-networks{
+    i{
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        margin-right: 3.6rem;
+        &:last-child{
+            margin-right: 0rem;
+        }
+    }
+}

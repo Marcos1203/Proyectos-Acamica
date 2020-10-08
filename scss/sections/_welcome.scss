@@ -1,0 +1,49 @@
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 6.4rem;
+    color: #060A24;
+    @include lg{
+        font-size: 5.4rem;
+    }
+    @include xxs{
+        font-size: 3.6rem;
+        margin-bottom: 1.6rem;
+    }
+}
+
+.podcast-welcome{
+    padding: 12.0rem 0rem 0rem 20.0rem;
+    p{
+        max-width: 62.8rem;
+        margin-bottom: 5.6rem;
+        line-height: 2.4rem;
+        @include xxs{
+            margin-bottom: 3.6rem;
+        }
+    }
+    a{
+        width: 22.6rem;
+        height: 5.6rem;
+        @include xxs{
+            width: 28.8rem;
+            height: 4.8rem;
+        }
+    }
+    @include xl{
+        padding: 12.0rem 0rem 0rem 10rem;
+    }
+    @include lg{
+        padding: 12.0rem 5rem 0rem 5rem;
+    }
+    @include xs{
+        padding: 2.9rem 1.6rem 2.4rem 1.6rem;
+    }
+}
+
+.other-color{
+    color: #0000EC;
+}
+
+.decorator{
+    text-decoration: line-through;
+}

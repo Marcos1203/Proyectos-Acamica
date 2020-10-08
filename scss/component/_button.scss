@@ -1,0 +1,17 @@
+.button{
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    font-size: 1.8rem; 
+    background-color: #00F3BB;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        color: #FFFFFF;
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+    @include xxs{
+        font-size: 1.6rem; 
+    }
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.podcast-content{
+    max-width: 144.0rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.6rem;
+    color: #060A24;
+    @include xxs{
+        font-size: 1.4rem;
+    }
+}
+
+a{
+    color:#060A24;
+}
+
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 4.8rem;
+    @include lg{
+        font-size: 4rem;
+    }
+    @include xxs{
+        font-size: 3.6rem;
+    }
+}

@@ -1,0 +1,42 @@
+.podcast-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 14.98rem;
+    &::before{
+        content: "";
+        position: absolute;
+        height: 51.8rem;
+        transform: rotate(-6deg);
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        top: 0;
+        left: -7%;
+        width: 220%;
+        z-index: -1;
+    }
+    h2{
+        padding-top: 21.3rem;
+        margin-bottom: 3.6rem;
+        color: #FFFFFF;
+        @include sm{
+            padding-top: 10.6rem;
+        }
+        @include xs{
+            text-align: center;
+            padding: 6.4rem 1.6rem 0rem 1.6rem;
+        }
+    }
+    a{
+        width: 35.6rem;
+        height: 5.6rem;
+        @include xxs{
+            width: 28.8rem;
+            height: 4.8rem;
+        }
+    }
+    @include sm{
+        padding-bottom: 6.7rem;
+    }
+}

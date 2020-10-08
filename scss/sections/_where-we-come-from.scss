@@ -1,0 +1,64 @@
+.where-we-come-from{
+    display: flex;
+    flex-direction: row;
+    @include md{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.where-we-come-from-img img{
+    margin: 0rem 6.24rem 6.4rem 20.0rem;
+    height: 66.0rem;
+    width: 100%;
+    max-width: 45.76rem;
+    @include xl{
+        margin: 0rem 3rem 6.4rem 5rem;
+    }
+    @include lg{
+        height: 60rem;
+    }
+    @include md{
+        margin: 0rem 0rem 2.7rem 0rem;
+    }
+    @include xxs{
+        height: 51.9rem;
+        width: 36.0rem;
+    }
+}
+
+.where-we-come-from-content{
+    h2{
+        margin-bottom: 2.4rem;
+        padding-top: 18.9rem;
+        @include md{
+            padding-top: 0rem;
+        }
+        @include xxs{
+            margin-bottom: 0.8rem;
+        }
+    }
+    p{
+        max-width: 46.4rem;
+        line-height: 2.2rem;
+        margin-bottom: 2.2rem;
+        &:last-child{
+            margin-bottom: 0rem;
+    }
+        @include md{
+            &:last-child{
+                margin-bottom: 5.4rem;
+            }
+    }
+    }
+    @include xl{
+        padding-right: 5rem;
+    }
+    @include md{
+        padding-right: 0rem;
+    }
+    @include xs{
+        padding: 0rem 1.6rem 0rem 1.6rem;
+    }
+}

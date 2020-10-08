@@ -1,0 +1,37 @@
+//  Breakpoints
+
+@mixin xl {
+    @media screen and (max-width: 75em) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media screen and (max-width: 64em) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media screen and (max-width: 56.25em){
+        @content;
+    }
+}
+
+@mixin sm {
+    @media screen and (max-width: 48em) {
+        @content;
+    }
+}
+
+@mixin xs {
+    @media screen and (max-width: 37.5em){
+        @content;
+    }
+}
+
+@mixin xxs {
+    @media screen and (max-width: 30em) {
+        @content;
+    }
+}

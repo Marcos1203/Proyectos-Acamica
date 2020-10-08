@@ -1,0 +1,55 @@
+.podcast-themes h2{
+    padding-left: 20rem;
+    margin-bottom: 5.6rem;
+    @include xl{
+        padding-left: 10rem;
+    }
+    @include lg{
+        padding-left: 5rem;
+    }
+    @include xs{
+        padding: 0rem 1.6rem 0rem 1.6rem;
+    }
+    @include xxs{
+        margin-bottom: 2.4rem;
+    }
+}
+
+.podcast-themes-logos{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 20.0rem 0rem 20rem;
+    margin-bottom: 3.4rem;
+    @include xl{
+        padding: 0rem 10rem 0rem 10rem;
+    }
+    @include lg{
+        padding: 0rem 5rem 0rem 5rem;
+    }
+    @include sm{
+        padding: 0rem 1.6rem 0rem 1.6rem;
+    }
+    @include xs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.content-themes{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 26.0rem;
+    height: 21.0rem;
+    img{
+        margin-bottom: 2.9rem;
+        @include xxs{
+            margin-bottom: 1.3rem;
+        }
+    }
+    p{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+}
