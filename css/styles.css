@@ -188,6 +188,16 @@ h1 {
     .podcast-welcome {
       padding: 2.9rem 1.6rem 2.4rem 1.6rem; } }
 
+.secundary-text {
+  display: none; }
+  @media screen and (max-width: 37.5em) {
+    .secundary-text {
+      display: contents; } }
+
+@media screen and (max-width: 37.5em) {
+  .main-text {
+    display: none; } }
+
 .other-color {
   color: #0000EC; }
 

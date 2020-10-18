@@ -40,10 +40,30 @@ h1{
     }
 }
 
+<<<<<<< Updated upstream
+=======
+.secundary-text{
+    display: none;
+    @include xs{
+        display: contents;
+    }
+}
+
+.main-text{
+    @include xs{
+        display: none;
+    }
+}
+
+>>>>>>> Stashed changes
 .other-color{
     color: #0000EC;
 }
 
 .decorator{
     text-decoration: line-through;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
